@@ -1,4 +1,4 @@
-# iQuHACK 2024 - QuEra Challenge
+# iQuHACK 2024 - QuEra Challenge -- DIRAC DAWGS
 
 Here you will learn all the details needed to operate QuEra resources for iQuHack 2024. See [`challenge.md`](challenge.md) to find out about the actual challenge.
 
