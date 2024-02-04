@@ -80,5 +80,19 @@ Probability of MIS is used as loss function and calculated by classical methods 
   >Quantum: 27.6%
 <p align="center">
 <img width="470" alt="Screenshot 2024-02-04 at 9 09 57 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/5cb98fbd-4a3c-44d9-b090-fa8a10ad7d22">
+</p>
+- MIS-related behavior for 8x8 on Aquila with the classically optimized pulses. Classical solution analysis using subspaces on GenericTensorNetworks is still needed
+
+<p align="center">
+<img width="290" alt="Screenshot 2024-02-04 at 9 18 25 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/0fcc32bf-b9be-4b07-af90-8ca44cc38cc9">
+
+</p>
+## Application
+### Urban/Urban/Suburban/Rural Logistics
+
+<p align="center">
+<img width="216" alt="Screenshot 2024-02-04 at 9 25 55 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/af2a82ed-17a7-4cb8-b98a-4b53e9ebfa7e">
+
+<img width="327" alt="Screenshot 2024-02-04 at 9 06 29" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/c7330788-a75a-49be-8c47-cc1ec439225e">
 
 </p>
