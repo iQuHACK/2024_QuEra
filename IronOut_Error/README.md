@@ -4,5 +4,5 @@ This is IronOut Error's official submission for iQuHACK 2024, with a project fro
 
 Our team name is IronOut_Error, and our team members include Thomas Verrill, Rin Kuroda, Aryan Prasad, Galeinston Pham, and Eric Yale Jung. 
 
-The code is as follows: final_code.ipnyb contains all the code that we discuss in our writeup. We also mention 8x8 and 16x16 trials in our presentation; the code for those trials is listed as well. 
+The code is as follows: final_code.ipnyb contains all the code that we discuss in our writeup. We also mention 8x8 and 16x16 trials in our presentation; the code for those trials is listed as well. The graph_maker file is programmed in Julia and uses libraries to simulate graphs and graph solutions for evaluating our quantum solutions. 
 
