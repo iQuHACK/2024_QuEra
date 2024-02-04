@@ -55,7 +55,15 @@ While phase is a parameter in Hamiltonian, we ignore it (for now) due its lack o
 - Parameters: Strength, Tail Start Time
 <p align="center">
 <img width="316" alt="Screenshot 2024-02-04 at 7 35 28 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/d03ac352-f133-4fb5-9e00-d59dddd2feda">
-
-
-   
 </p>
+3. Optimize the detuning:
+- Detuning parameters Δ at 4 points are defined such that  Δ >> Ω at the end
+<p align="center">
+
+<img width="637" alt="Screenshot 2024-02-04 at 8 59 06 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/413fe92c-b82b-4be2-819e-bf834a841567">
+</p>
+#### Optimizations
+Nelder-Mead Optimization method was used  to determine the shape of our Rabi Frequency and Detuning pulses. 
+Probability of MIS is used as loss function and calculated by classical methods using tensor network / bloqade subspace
+
+
