@@ -87,6 +87,13 @@ Probability of MIS is used as loss function and calculated by classical methods 
 <img width="290" alt="Screenshot 2024-02-04 at 9 18 25 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/0fcc32bf-b9be-4b07-af90-8ca44cc38cc9">
 </p>
 
+## Analysis
+We performed an analysis of the "hardness" of various graphs, as measured by two metrics used in the literature: the hardness metric, which relates to the size of the MIS and the number of ways it can be achieved, and the time taken to achieve a solution. The simulated results for time taken are shown below. Understandably, the time taken increases with lattice size. 
+<p align="center">
+<img width="216" alt="TTS Plot" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/af2a82ed-17a7-4cb8-b98a-4b53e9ebfa7e">
+</p>
+- 
+
 ## Application
 ### Urban/Suburban/Rural Logistics
 
