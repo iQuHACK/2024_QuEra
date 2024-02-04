@@ -43,6 +43,19 @@ Lattice constant a is fixed to 4 micrometers due to Aquila physical constraints,
 While phase is a parameter in Hamiltonian, we ignore it (for now) due its lack of use in literature. Square lattices (0.3 probability of dropout) used to represent the defective king’s lattice, but other shapes have potential for investigating hardness metric
 <p align="center">
    <img width="324" alt="Screenshot 2024-02-04 at 7 34 55 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/3887eb76-3b06-4aaa-82a0-ec732a088a90">
-
 </p>
 
+## Programmemd Implementation
+### Protocol Overview
+1. Start with naive solution, with reasonable values of Ω and Δ
+<p align="center">
+   <img width="309" alt="Screenshot 2024-02-04 at 7 35 12 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/022b0d6e-a487-4496-82ee-f0fae8d11229">
+</p>
+2. Optimize the Rabi frequency waveform:
+- Parameters: Strength, Tail Start Time
+<p align="center">
+<img width="316" alt="Screenshot 2024-02-04 at 7 35 28 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/d03ac352-f133-4fb5-9e00-d59dddd2feda">
+
+
+   
+</p>
