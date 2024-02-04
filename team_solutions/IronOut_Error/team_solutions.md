@@ -27,10 +27,15 @@ We first found Rb by taking the geometric mean of $R\_{max}$ and $R\_{min}$
 <p align="center">
 $R_b = a * \sqrt{3*\sqrt{10}.} = 12.32$
 </p>
-Lattice constant a is fixed to 4 micrometers due to Aquila physical constraints, given C6=862690(*2pi). $s$ represents represents final Delta (detuning) when Omega is 0.
+Lattice constant a is fixed to 4 micrometers due to Aquila physical constraints, given C6=862690(*2pi). 's' represents represents final Delta (detuning) when Omega is 0.
 <p align="center">
    <img width="365" alt="Screenshot 2024-02-04 at 7 34 05 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/95c028cf-619d-43b5-be18-9db3649b1d8d">
 <img width="196" alt="Screenshot 2024-02-04 at 7 34 15 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/5ca66ad7-27b0-46d8-818d-7aedb0555750">
-
-
 </p>
+
+### More Physical Constraints & Pulses
+- Upper bound on Rabi Pulses on Aquila Hardware: 2.5 MHz (*2pi)
+- Adiabatic computing: Detuning value ramps up to value calculated from equation (0.24668 MHz, which is possible)
+- Rabi pulse needed (at least at beginning) for activating the Rydberg states. At end, Detuning needs to be able to overpower Rabi value.
+- Piecewise functions is optimized 
+
