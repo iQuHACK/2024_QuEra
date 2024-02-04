@@ -85,14 +85,45 @@ Probability of MIS is used as loss function and calculated by classical methods 
 
 <p align="center">
 <img width="290" alt="Screenshot 2024-02-04 at 9 18 25 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/0fcc32bf-b9be-4b07-af90-8ca44cc38cc9">
-
 </p>
+
 ## Application
-### Urban/Urban/Suburban/Rural Logistics
+### Urban/Suburban/Rural Logistics
 
 <p align="center">
 <img width="216" alt="Screenshot 2024-02-04 at 9 25 55 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/af2a82ed-17a7-4cb8-b98a-4b53e9ebfa7e">
 
 <img width="327" alt="Screenshot 2024-02-04 at 9 06 29" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/c7330788-a75a-49be-8c47-cc1ec439225e">
+</p>
+
+### Details
+Goal: Maximize number of towns in accordance with constraints.
+Vertices in a grid represent patches of land to build on.
+Constraints
+Centers must be surrounded with urban areas, then suburban, and then rural area/nature.
+Two towns cannot interfere with each other’s infrastructure
+<p align="center">
+<img width="450" alt="Screenshot 2024-02-04 at 9 07 20" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/77d48fae-e4d8-4f68-b594-2101d9a8dcd8">
+</p>
+
+
+### Generalizability
+3 concentric, unique levels that surround vertices
+Our levels are urban, suburban, and rural infrastructure in plots of land (vertices)
+Another application (while abstract) is a map coloring scenario with the aim of maximizing sets of three concentric given colors.
+Green, Red, Yellow 
+<p align="center">
+
+<img width="372" alt="Screenshot 2024-02-04 at 9 07 44" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/eb75a187-3636-438e-8e81-30b251a03a1f">
+</p>
+
+## Scaling and Optimization
+- Advanced/other optimization methods (i.e. Bayesian, smoothing, quantum dueling) 
+- Can include searching over a richer space, such as optimizing more time intervals.
+- Testing different algorithms other than Adiabatic (e.g. QAOA)
+Consider related problems, such as weighted maximal independent sets and other graph problems.
+<p align="center">
+<img width="598" alt="Screenshot 2024-02-04 at 9 08 05" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/c3dc41ff-0f72-4c40-87a8-cef347ab713e">
+<img width="262" alt="Screenshot 2024-02-04 at 9 07 52" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/1e5dbf32-9491-49b5-8f84-1117878788b2">
 
 </p>
