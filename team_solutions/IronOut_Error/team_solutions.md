@@ -59,11 +59,26 @@ While phase is a parameter in Hamiltonian, we ignore it (for now) due its lack o
 3. Optimize the detuning:
 - Detuning parameters Δ at 4 points are defined such that  Δ >> Ω at the end
 <p align="center">
-
 <img width="637" alt="Screenshot 2024-02-04 at 8 59 06 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/413fe92c-b82b-4be2-819e-bf834a841567">
 </p>
-#### Optimizations
+
+**Optimizations**
 Nelder-Mead Optimization method was used  to determine the shape of our Rabi Frequency and Detuning pulses. 
 Probability of MIS is used as loss function and calculated by classical methods using tensor network / bloqade subspace
+<p align="center">
+<img width="354" alt="Screenshot 2024-02-04 at 9 06 59 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/3bbc807d-4c64-4a76-b7d8-a660a81c866a">
+<img width="1017" alt="Screenshot 2024-02-04 at 9 09 40 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/13a655fb-0c61-4ba2-83aa-12b26b75614e">
+
+</p>
 
 
+
+## Aquila Tasks
+- Nonzero probabilities of measuring MIS for Rb/a = 3 on Aquila!
+- Post-processed MIS probability
+  >Classical: 44.6%
+  >Quantum: 27.6%
+<p align="center">
+<img width="470" alt="Screenshot 2024-02-04 at 9 09 57 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/5cb98fbd-4a3c-44d9-b090-fa8a10ad7d22">
+
+</p>
