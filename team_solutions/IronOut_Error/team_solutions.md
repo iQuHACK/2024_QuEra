@@ -39,3 +39,10 @@ Lattice constant a is fixed to 4 micrometers due to Aquila physical constraints,
 - Rabi pulse needed (at least at beginning) for activating the Rydberg states. At end, Detuning needs to be able to overpower Rabi value.
 - Piecewise functions is optimized 
 
+### Phase and Geometry
+While phase is a parameter in Hamiltonian, we ignore it (for now) due its lack of use in literature. Square lattices (0.3 probability of dropout) used to represent the defective king’s lattice, but other shapes have potential for investigating hardness metric
+<p align="center">
+   <img width="324" alt="Screenshot 2024-02-04 at 7 34 55 AM" src="https://github.com/thomasverrill/2024_QuEra/assets/69056626/3887eb76-3b06-4aaa-82a0-ec732a088a90">
+
+</p>
+
